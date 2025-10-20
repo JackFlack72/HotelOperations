@@ -3,22 +3,27 @@ package com.pluralsight;
 public class Room {
     private int numberOfBeds;
     private double price;
-    private boolean occupied;
-    private boolean dirty;
-    private boolean available;
-    int getNumberOfBeds() {
+    private boolean isOccupied;
+    private boolean isDirty;
+    private boolean isAvailable;
+
+    public int getNumberOfBeds() {
         return numberOfBeds;
     }
-    double getPrice() {
+
+    public double getPrice() {
         return price;
     }
-    boolean isOccupied() {
-        return "Occupied: " + occupied;
+
+    public boolean isOccupied() {
+        return isOccupied;
     }
-    boolean isDirty() {
-        return "Dirty: " + dirty;
+
+    public boolean isDirty() {
+        return isDirty;
     }
-    boolean isAvailable() {
-        return "Available: " + available;
+
+    public boolean isAvailable() {
+        return isAvailable;
     }
 }
