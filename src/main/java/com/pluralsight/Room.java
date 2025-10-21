@@ -26,4 +26,18 @@ public class Room {
     public boolean isAvailable() {
         return isAvailable;
     }
+
+    public checkIn() {
+
+    }
+
+    public checkOut() {
+
+    }
+
+    public cleanRoom() {
+
+    }
+
+
 }

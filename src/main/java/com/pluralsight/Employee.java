@@ -29,4 +29,12 @@ public class Employee {
             return 0;
         }
     }
+
+    public punchIn() {
+
+    }
+
+    public punchOut() {
+
+    }
 }
