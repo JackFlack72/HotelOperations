@@ -9,6 +9,14 @@ public class Employee {
 
     private final double REGULAR_HOURS = 40;
 
+    public Employee(String employeeId, String name, String department, double payRate) {
+        this.employeeId = employeeId;
+        this.name = name;
+        this.department = department;
+        this.payRate = payRate;
+        this.hoursWorked = 0.0;
+    }
+
     public double getTotalPay() {
         double totalPay = this.payRate * this.hoursWorked;
         return totalPay;
@@ -30,11 +38,11 @@ public class Employee {
         }
     }
 
-    public punchIn() {
+    public void punchIn(double time) {
 
     }
 
-    public punchOut() {
+    public void punchOut(double time) {
 
     }
 }
